@@ -1,0 +1,256 @@
+.index {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.index .overlap-group-wrapper {
+  height: 1002px;
+  width: 1617px;
+}
+
+.index .overlap-group {
+  height: 1002px;
+  position: relative;
+}
+
+.index .frame {
+  height: 1002px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1617px;
+}
+
+.index .mesh-instance {
+  left: 20px !important;
+  top: 15px !important;
+}
+
+.index .navbar-logo-left-instance {
+  left: 89px !important;
+  position: absolute !important;
+  top: 53px !important;
+}
+
+.index .all-pages {
+  height: 805px;
+  left: 89px;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  top: 156px;
+  width: 1440px;
+}
+
+.index .hero-heading-left {
+  height: 593px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.index .gallery-overview {
+  height: 2000px;
+  left: 0;
+  position: absolute;
+  top: 623px;
+  width: 1440px;
+}
+
+.index .pricing-comparison {
+  height: 1070px;
+  left: 0;
+  position: absolute;
+  top: 2652px;
+  width: 1440px;
+}
+
+.index .testimonial-column {
+  height: 556px;
+  left: 0;
+  position: absolute;
+  top: 3752px;
+  width: 1440px;
+}
+
+.index .footer {
+  align-items: center;
+  background-color: #ffffff80;
+  border: 1px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgb(0, 163.2, 255), rgba(151, 71, 255, 0.5)) 1;
+  border-radius: 20px;
+  box-shadow: 0px 4px 100px #00000040;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  left: 0;
+  overflow: hidden;
+  padding: 64px 24px 8px;
+  position: absolute;
+  top: 4338px;
+  width: 1440px;
+}
+
+.index .columns {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 960px;
+}
+
+.index .column {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 320px;
+}
+
+.index .logo-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 16px 0px 0px;
+  position: relative;
+}
+
+.index .logo {
+  height: 36px;
+  object-fit: cover;
+  position: relative;
+  width: 141px;
+}
+
+.index .small-columns {
+  align-items: flex-start;
+  display: flex;
+  gap: 32px;
+  padding: 16px 0px 0px;
+  position: relative;
+  width: 600px;
+}
+
+.index .content-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 24px;
+  position: relative;
+}
+
+.index .content {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.index .text-wrapper-2 {
+  align-self: stretch;
+  color: #212121;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.index .footer-links {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.index .link {
+  align-self: stretch;
+  color: #212121;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.index .link-2 {
+  align-self: stretch;
+  color: #212121;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: relative;
+}
+
+.index .link-3 {
+  color: #212121;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .link-4 {
+  color: #212121;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .copyright {
+  align-items: center;
+  box-shadow: 0px -1px 0px #e4ebf3;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 32px;
+  justify-content: center;
+  padding: 16px 0px;
+  position: relative;
+  width: 940px;
+}
+
+.index .text {
+  color: #333333;
+  flex: 1;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
